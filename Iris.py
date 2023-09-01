@@ -6,7 +6,7 @@ import seaborn as sns
 import warnings
 from sklearn.preprocessing import LabelEncoder
 warnings.filterwarnings('ignore')
-df= pd.read_csv('/kaggle/input/iriscsv/Iris.csv')
+df= pd.read_csv('/iris.csv')
 df.head()
 df= df.drop(columns=["Id"])
 df.head()
